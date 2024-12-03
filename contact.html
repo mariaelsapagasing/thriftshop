@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .contact_section {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+        .contact_main {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .request_text {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .email-bt, .massage-bt {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .send_btn {
+            margin-top: 20px;
+        }
+        .send_btn a {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .send_btn a:hover {
+            background-color: #0056b3;
+        }
+        .footer_section {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer_section a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer_section a:hover {
+            text-decoration: underline;
+        }
+        .map-responsive {
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 */
+            position: relative;
+            height: 0;
+        }
+        .map-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .call_text {
+            margin: 10px 0;
+            text-align: center;
+        }
+        .social_icon {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social_icon ul {
+            list-style: none;
+            padding: 0;
+        }
+        .social_icon li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contact Section Start -->
+    <div class="contact_section layout_padding">
+        <div class="container">
+            <div class="contact_main">
+                <h1 class="request_text">Hubungi Kami</h1>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <input type="text" class="email-bt" placeholder="Name" name="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="email-bt" placeholder="Email" name="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="email-bt" placeholder="Phone Number" name="Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message" required></textarea>
+                    </div>
+                    <div class="send_btn"><a href="#">SEND</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <div class="footer_section layout_padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 padding_0">
+                    <div class="map_main">
+                        <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.5946122345376!2d119.43965547315152!3d-5.168724752190993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!
